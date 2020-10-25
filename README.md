@@ -66,7 +66,7 @@ bajo la siguiente estructura de datos:
         long partNumber;
         long serialNumber;
         char descripcion[40];       
-        chat ubicacion[100];        
+        char ubicacion[100];        
     }repuestos_t;
 >Los repuestos no están ordenados, se solicita cargarlos en una lista, la cual ordene por descripción a los repuestos para luego guardarlos en un archivo de
 *stock* con organización secuencial.
